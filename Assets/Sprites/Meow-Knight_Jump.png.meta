@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6509b625d4da8f548a5f81796eca6677
+guid: 9addf9dc42cf5524aaa706a86d7e4ab5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,6 +81,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -114,39 +127,39 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 350
+        y: 348
         width: 16
-        height: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bef6fe762f03c4bb82f9c481315237
-      internalID: -744532716
+      spriteID: 9b99b2cf386c83e48abef25c9e8d918e
+      internalID: 1078299431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Meow-Knight_Jump_2
+      name: Meow-Knight_Jump_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 324
+        y: 323
         width: 16
-        height: 17
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6ff13f8c90b2441861cfaec082c6cf
-      internalID: 1116373972
+      spriteID: 990f97c2a08ee9849a9b2a28b9ceb33a
+      internalID: 999557049
       vertices: []
       indices: 
       edges: []
@@ -156,39 +169,39 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 297
+        y: 295
         width: 16
-        height: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe5b335169b52a4f8440da2e09a0726
-      internalID: -1275593489
+      spriteID: f930d96dff97402458228b5301378613
+      internalID: -183749579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Meow-Knight_Jump_5
+      name: Meow-Knight_Jump_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 269
+        y: 270
         width: 16
-        height: 20
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc2e8bcf059bcff47ac3f631a3b70e3f
-      internalID: 1870154565
+      spriteID: 5d78136fac9a2ad4e958c72630f36baa
+      internalID: 1750671182
       vertices: []
       indices: 
       edges: []
@@ -202,14 +215,14 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1c04e979ade15249a028d6753945192
-      internalID: 300298487
+      spriteID: d42f95f37eb0b164c8936ee535c9def9
+      internalID: 1415120673
       vertices: []
       indices: 
       edges: []
@@ -219,24 +232,24 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 185
+        y: 186
         width: 16
-        height: 20
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554583c5cc8f4a64abd0ed85a99b53f8
-      internalID: -1430345603
+      spriteID: 9f9cacdfb0f2917458e91c90f1964182
+      internalID: 45112616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Meow-Knight_Jump_11
+      name: Meow-Knight_Jump_9
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +257,14 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51cc320e4f01a3542875f588ea8821cf
-      internalID: -281660951
+      spriteID: a77dbeaf86c7a124c88989ee5aecc76b
+      internalID: -1143679197
       vertices: []
       indices: 
       edges: []
@@ -261,24 +274,24 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 104
+        y: 102
         width: 16
-        height: 17
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56fac66b459a474dbe98415deb0379a
-      internalID: 1495641032
+      spriteID: 0cdce7c1af076b24b9fa9946bee265da
+      internalID: -1418510274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Meow-Knight_Jump_14
+      name: Meow-Knight_Jump_13
       rect:
         serializedVersion: 2
         x: 0
@@ -286,14 +299,35 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1e321a5f9cc11b4f8ac01f570e58163
-      internalID: 1761939184
+      spriteID: 1648509ec0ee17840a6a5484ddd95124
+      internalID: 1611564084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meow-Knight_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f15cbd137b99c48bc4f95e73508aa6
+      internalID: 1642336596
       vertices: []
       indices: 
       edges: []
@@ -303,18 +337,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
+        y: 24
         width: 16
-        height: 17
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d46f4066ec577f740ab2e0b0b6de00a9
-      internalID: 2445172
+      spriteID: 6304109ba1300a145909b9c9a43ac02d
+      internalID: -1002122745
       vertices: []
       indices: 
       edges: []
@@ -324,39 +358,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 25
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbea3566626988c4fafe93f13250267d
-      internalID: -199268017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Meow-Knight_Jump_18
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
         width: 16
-        height: 16
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0da651edd7b1b4a47a4d7fe464cf6a00
-      internalID: 1443805456
+      spriteID: de065f26182d1d340837c03bcb52cc3a
+      internalID: 1719386228
       vertices: []
       indices: 
       edges: []
@@ -372,25 +385,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Meow-Knight_Jump_0: -744532716
-      Meow-Knight_Jump_1: 2029993779
-      Meow-Knight_Jump_10: -1960540739
-      Meow-Knight_Jump_11: -281660951
-      Meow-Knight_Jump_12: 1495641032
-      Meow-Knight_Jump_13: 1482668936
-      Meow-Knight_Jump_14: 1761939184
-      Meow-Knight_Jump_15: -1362284632
-      Meow-Knight_Jump_16: 2445172
-      Meow-Knight_Jump_17: -199268017
-      Meow-Knight_Jump_18: 1443805456
-      Meow-Knight_Jump_2: 1116373972
-      Meow-Knight_Jump_3: -1275593489
-      Meow-Knight_Jump_4: -279916072
-      Meow-Knight_Jump_5: 1870154565
-      Meow-Knight_Jump_6: -598282779
-      Meow-Knight_Jump_7: 300298487
-      Meow-Knight_Jump_8: -1430345603
-      Meow-Knight_Jump_9: 966921258
+      Meow-Knight_Jump_0: 1078299431
+      Meow-Knight_Jump_1: 999557049
+      Meow-Knight_Jump_10: 1461746290
+      Meow-Knight_Jump_11: -406422215
+      Meow-Knight_Jump_12: -1418510274
+      Meow-Knight_Jump_13: 1611564084
+      Meow-Knight_Jump_14: 2051219230
+      Meow-Knight_Jump_15: 1642336596
+      Meow-Knight_Jump_16: -1002122745
+      Meow-Knight_Jump_17: 1719386228
+      Meow-Knight_Jump_2: 1216755843
+      Meow-Knight_Jump_3: -183749579
+      Meow-Knight_Jump_4: 1750671182
+      Meow-Knight_Jump_5: 185814237
+      Meow-Knight_Jump_6: 333185357
+      Meow-Knight_Jump_7: 1415120673
+      Meow-Knight_Jump_8: 45112616
+      Meow-Knight_Jump_9: -1143679197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

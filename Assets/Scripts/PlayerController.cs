@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameOverScreen GameOverScreen;
+    public LogicScript LogicScript;
+    public int score;
+    public TextMeshProUGUI scoreText;
+    
     private float _speed = 8f;
     private float _h, _v;
 
@@ -37,7 +43,9 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Cloud")){
             Destroy(this.gameObject);
             Time.timeScale = 0;
+            scoreText.gameObject.SetActive(false);
+            score = LogicScript.returnScore();
+            GameOverScreen.Setup(score);
         }
-        
     }
 }
